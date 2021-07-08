@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+
+
+
+.header{background-color: #3D1749;}
+
+.titulo h1 {font-family: 'Antonio', sans-serif; font-size: 70px;text-align: center;}
+
+.titulo p {font-family: 'Roboto', sans-serif; font-size: 20px;text-align: center;}
+
+h2 {font-family: 'Antonio', sans-serif; font-size: 30px;text-align: center;}
+
+p {font-family: 'Roboto', sans-serif; font-size: 16px;text-align: center;}
+
+.txt{font-family: 'Antonio', sans-serif;text-align: center;}
+
+.txtcompras {font-family: 'Roboto', sans-serif; font-size: 16px;text-align: center;border: 1px solid;}
+
+
+.botonhome a{transition: 1s all 0s ease; background:#49AF35; font-size: 25px; text-decoration: none; color: black;}
+.botonhome a:hover {background: #3D1749; color:white;}
+
+
+
+.imgnovelas img{transition: 1s all 0s ease;}
+.imgnovelas :hover{transform: scale(1.1,1.1);}
+
+
+
+
+.imgpeliculas img{transition: 1s all 0s ease;}
+.imgpeliculas :hover{transform: scale(1.1,1.1);}
+
+
+
+.botonbio a {transition: 1s all 0s ease; background:#3D1749; font-size: 30px; text-decoration: none; color: white;text-align: center;}
+.botonbio a:hover {background:#49AF35; color:black;}
+
+
+
+.boton { background:#49AF35; font-size: 16px; text-decoration: none; color: black;text-align: center;border-radius: 20px;}
+.boton a{color: black;text-decoration: none;}
+
+.compra a {transition: 1s all 0s ease; background:#3D1749; font-size: 30px; text-decoration: none; color: white;}
+.compra a:hover {background:#49AF35; color:black;}
+
+
+
+
+
+
+
+
+@keyframes jokers{
+    50%{transform: scale(1.3);}
+    100%{transform: scale(1);}
+}
+
+.imgbio{
+    margin-top: 0 auto;
+    animation-name:jokers;
+    animation-duration: 2000ms;
+}
+
+@keyframes carrito{
+    0%{transform: translateX(1400px);}
+    100%{transform: translateX(-1500px);}
+}
+
+.imgcarrito{
+    margin-top: 0 auto;
+    animation-duration: 3s;
+    animation-name: carrito;
+    animation-iteration-count: forwards;
+    animation-timing-function: linear;
+}
+
+
+
+
+
+
+.botonform{text-align: center;}
+
+footer .txtinfo{background-color: #3D1749; text-align: center; color: white;}

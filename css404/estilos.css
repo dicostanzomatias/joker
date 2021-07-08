@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family:'Antonio', sans-serif;
+    color:black;
+    font-size: 16px;
+}
+
+div img{
+    width: 100%;
+}
+
+@keyframes textos{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.titulo{
+    animation-name: textos;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+    text-align: center;
+    position: absolute;
+    left: 13%;
+    top: 9%;
+    font-size: 40px;
+}
+
+
+.boton{
+    transition: 1s all 0s ease;
+    width: 5%;
+    font-size: 30px;
+    color: darkmagenta;
+    text-align: center;
+    background-color: rgb(42, 209, 27);
+    position: absolute;
+    top: 46%;
+    left: 35%;
+}
+
+.cajaboton :hover{
+    text-decoration: none;
+    color:white;
+    background-color: darkmagenta;
+    text-decoration: none;
+    border-radius: 30px;
+}
+
+.ob3{
+    width: 4%;
+    position: absolute;
+    top: 88%;
+}
+
+
+body{
+    background-image: url("../img/jokerfondo2.jpg");
+    width: 100%;
+}
+
+
+@keyframes jokervsbatman{
+    10%{
+        transform: translateX(1400px);
+    }
+    0%{
+        transform: translateX(1400px);
+    }
+}
+
+.ob1 {
+    width: 10%;
+    position: absolute;
+    animation-name: jokervsbatman;
+    top:70%;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.ob2 {
+    width: 8%;
+    position: absolute;
+    animation-name: jokervsbatman;
+    top:64%;
+    left:30%; 
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
